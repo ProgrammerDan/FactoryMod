@@ -23,6 +23,14 @@ import com.github.igotyou.FactoryMod.utility.ItemList;
 import com.github.igotyou.FactoryMod.utility.NamedItemStack;
 import com.github.igotyou.FactoryMod.utility.StringUtils;
 
+/** 
+ * PrintingPress is a special subclass of BaseFactory adding a few interesting features
+ * to presses; specifically, it leverages the incremental updates to establish a 
+ * queue. Materials are moved from the factory inventory into the queue, and once
+ * the code ticks "back around" to the same spot in the queue, those materials are
+ * "consumed" and output is produced. This continues until the factory runs out of
+ * inputs, or is turned off (which forfeits the queue contents).
+ */
 public class PrintingPress extends BaseFactory {
 	
 	private PrintingPressProperties printingPressProperties;
