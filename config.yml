@@ -125,9 +125,9 @@ repair_factory:
         material: 'COAL_ORE'
         amount: 32
     recipe:
-      Coal Ore:
-        material: 'COAL_ORE'
-        amount: 64
+      Emerald Blocks:
+        material: 'EMERALD_BLOCK'
+        amount: 18
 copy_defaults: false
 general:
   central_block: WORKBENCH
