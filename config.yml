@@ -959,7 +959,6 @@ production_factories:
       - Create_Wooden_Axe
       - Create_Wooden_Spade
       - Create_Wooden_Axe
-      - Create_Wooden_Hoe
       - Create_Fishing_Rod
     repair_multiple: 2
     repair_inputs:
@@ -1017,7 +1016,6 @@ production_factories:
       - Create_Iron_Axe
       - Create_Iron_Pickaxe
       - Create_Iron_Spade
-      - Create_Iron_Hoe
     repair_multiple: 2
     repair_inputs:
       Iron:
@@ -1074,7 +1072,6 @@ production_factories:
       - Create_Diamond_Axe
       - Create_Diamond_Pickaxe
       - Create_Diamond_Spade
-      - Create_Diamond_Hoe
     repair_multiple: 2
     repair_inputs:
       Emerald Blocks:
