@@ -959,6 +959,7 @@ production_factories:
       - Create_Wooden_Axe
       - Create_Wooden_Spade
       - Create_Wooden_Axe
+      - Create_Wooden_Hoe
       - Create_Fishing_Rod
     repair_multiple: 2
     repair_inputs:
@@ -982,8 +983,8 @@ production_factories:
       - Create_Leather_Helmet
     repair_multiple: 2
     repair_inputs:
-      Sticks:
-        material: STICK
+      Leather:
+        material: LEATHER
         amount: 6  
   Random_Wooden_Weapon_Factory:
     name: Random Wooden Weapon Factory
@@ -1016,6 +1017,7 @@ production_factories:
       - Create_Iron_Axe
       - Create_Iron_Pickaxe
       - Create_Iron_Spade
+      - Create_Iron_Hoe
     repair_multiple: 2
     repair_inputs:
       Iron:
@@ -1072,6 +1074,7 @@ production_factories:
       - Create_Diamond_Axe
       - Create_Diamond_Pickaxe
       - Create_Diamond_Spade
+      - Create_Diamond_Hoe
     repair_multiple: 2
     repair_inputs:
       Emerald Blocks:
@@ -1132,6 +1135,7 @@ production_factories:
       - Enchant_Sharpness
       - Enchant_Fire_Aspect
       - Enchant_Looting
+      - Enchant_Bane_Of_Arthropods
     repair_multiple: 10
     repair_inputs:
       Diamond Block:
@@ -2522,7 +2526,7 @@ production_factories:
       - Forge_Iron_Bars
       - Forge_Buckets
       - Forge_Iron_Doors
-
+      - Forge_Iron_Trapdoors
       - Forge_Flint_And_Steel
       - Bastion_Gearbox
     repair_multiple: 10
@@ -4905,8 +4909,8 @@ production_recipes:
     production_time: 32
     inputs:
       Clay:
-        material: CLAY_BALL
-        amount: 512
+        material: CLAY
+        amount: 128
     outputs:
       Bricks:
         material: CLAY_BRICK
@@ -4916,8 +4920,8 @@ production_recipes:
     production_time: 5
     inputs:
       Clay:
-        material: CLAY_BALL
-        amount: 64
+        material: CLAY
+        amount: 16
     outputs:
       Flower Pots:
         material: FLOWER_POT_ITEM
@@ -8090,6 +8094,24 @@ production_recipes:
       Looting:
         type: LOOT_BONUS_MOBS
         level: 3
+  Enchant_Bane_Of_Arthropods:
+    name: Enchant With Bane of Arthropods 5.
+    production_time: 10
+    inputs:
+      Diamond Sword:
+        material: DIAMOND_SWORD
+        amount: 5
+      Emerald Block:
+        material: EMERALD_BLOCK
+        amount: 50
+    outputs:
+      Diamond Sword:
+        material: DIAMOND_SWORD
+        amount: 5
+    enchantments:
+      Bane of Arthropods 5:
+        type: DAMAGE_ARTHROPODS
+        level: 5
   Enchant_P4_Chest:
     name: Enchant Chest with Prot 4
     production_time: 40
@@ -9591,18 +9613,22 @@ production_recipes:
       Unbreaking 3:
         type: DURABILITY
         level: 3
+        probability: 0.57
+      Lure 2:
+        type: LURE
+        level: 2
         probability: 0.16
-      Efficiency 4:
-        type: DIG_SPEED
-        level: 4
+      Luck of the Sea 2:
+        type: LUCK
+        level: 2
         probability: 0.16
-      Efficiency 4:
-        type: DIG_SPEED
-        level: 4
+      Lure 3:
+        type: LURE
+        level: 3
         probability: 0.06
-      Efficiency 4:
-        type: DIG_SPEED
-        level: 4
+      Luck of the Sea 3:
+        type: LUCK
+        level: 3
         probability: 0.05
   Create_Bow:
     name: Create Bow
@@ -9702,9 +9728,9 @@ production_recipes:
         type: DAMAGE_UNDEAD
         level: 5
         probability: 0.012
-      Bane of Arthropods 4:
+      Bane of Arthropods 5:
         type: DAMAGE_ARTHROPODS
-        level: 4
+        level: 5
         probability: 0.0105
       Fire Aspect 1:
         type: FIRE_ASPECT
@@ -9839,8 +9865,8 @@ production_recipes:
         type: PROTECTION_ENVIRONMENTAL
         level: 4
         probability: 0.03
-      Throns 2:
-        type: THRONS
+      Thorns 2:
+        type: THORNS
         level: 2
         probability: 0.19
       Fire Protection 3:
@@ -9856,7 +9882,7 @@ production_recipes:
         level: 4
         probability: 0.12
       Thorn 1:
-        type: THRONS
+        type: THORNS
         level: 1
         probability: 0.01
   Create_Diamond_Helmet:
@@ -9969,9 +9995,9 @@ production_recipes:
         type: DAMAGE_UNDEAD
         level: 5
         probability: 0.012
-      Bane of Arthropods 4:
+      Bane of Arthropods 5:
         type: DAMAGE_ARTHROPODS
-        level: 4
+        level: 5
         probability: 0.0105
       Fire Aspect 1:
         type: FIRE_ASPECT
@@ -10107,8 +10133,8 @@ production_recipes:
         type: PROTECTION_ENVIRONMENTAL
         level: 4
         probability: 0.03
-      Throns 2:
-        type: THRONS
+      Thorns 2:
+        type: THORNS
         level: 2
         probability: 0.19
       Fire Protection 3:
@@ -10124,7 +10150,7 @@ production_recipes:
         level: 4
         probability: 0.12
       Thorn 1:
-        type: THRONS
+        type: THORNS
         level: 1
         probability: 0.01
   Create_Iron_Helmet:
@@ -10237,9 +10263,9 @@ production_recipes:
         type: DAMAGE_UNDEAD
         level: 5
         probability: 0.012
-      Bane of Arthropods 4:
+      Bane of Arthropods 5:
         type: DAMAGE_ARTHROPODS
-        level: 4
+        level: 5
         probability: 0.0105
       Fire Aspect 1:
         type: FIRE_ASPECT
@@ -10374,8 +10400,8 @@ production_recipes:
         type: PROTECTION_ENVIRONMENTAL
         level: 4
         probability: 0.03
-      Throns 2:
-        type: THRONS
+      Thorns 2:
+        type: THORNS
         level: 2
         probability: 0.19
       Fire Protection 3:
@@ -10391,7 +10417,7 @@ production_recipes:
         level: 4
         probability: 0.12
       Thorn 1:
-        type: THRONS
+        type: THORNS
         level: 1
         probability: 0.01
   Create_Leather_Helmet:
