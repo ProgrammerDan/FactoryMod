@@ -617,7 +617,7 @@ public class PrintingPress extends BaseFactory {
 					log.finer("getPlateResult(): Book found has Metadata associated.");
 					// Found a book
 					BookMeta bookData = (BookMeta) meta;
-					String title = bookData.hasTitle() ? bookData.getTitle() : "";
+					String title = bookData.hasTitle() ? bookData.getTitle() : (bookData.hasDisplayName() ? bookData.getDisplayName() : "");
 					String author = bookData.hasAuthor() ? bookData.getAuthor() : "";
 					if (author == null) {
 						author = "";
