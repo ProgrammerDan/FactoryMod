@@ -3609,8 +3609,6 @@ production_recipes:
         material: WOOL
         amount: 64
         durability: 9
-
-
   Iron_XP_Bottle_0:
     name: Brew XP Bottles  - 1
     inputs:
@@ -3631,8 +3629,8 @@ production_recipes:
         material: MELON_BLOCK
         amount: 64
     outputs:
-      Exp Bottle:
-        material: EXP_BOTTLE
+      Emerald:
+        material: EMERALD
         amount: 32
   Dye_White_Wool_Red:
     name: Dye White Wool Red
@@ -5344,8 +5342,8 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      Exp Bottle:
-        material: EXP_BOTTLE
+      Emerald:
+        material: EMERALD
         amount: 32
   Iron_XP_Bottle_3:
     name: Brew XP Bottles  - 4
@@ -5367,8 +5365,8 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      Exp Bottle:
-        material: EXP_BOTTLE
+      Emerald:
+        material: EMERALD
         amount: 32
   Iron_XP_Bottle_2:
     name: Brew XP Bottles  - 3
@@ -5390,8 +5388,8 @@ production_recipes:
         material: MELON_BLOCK
         amount: 64
     outputs:
-      Exp Bottle:
-        material: EXP_BOTTLE
+      Emerald:
+        material: EMERALD
         amount: 32
   Diamond_Leggings:
     name: Forge Diamond Leggings.
