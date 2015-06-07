@@ -228,8 +228,7 @@ crafting:
     CHISSELED_STONE_BRICK:
       material: SMOOTH_BRICK
       durability: 3
-
-    MOSSY_COBBLE:
+    MOSSY_STONE:
       material: SMOOTH_BRICK
       durability: 1
     CRACKED_STONE_BRICK:
@@ -733,7 +732,7 @@ production_factories:
       - Nether_Craft_Crate_of_Carrots
       - Nether_Craft_Crate_of_Cocoa
       - Nether_Craft_Crate_of_Cookies
-      - Nether_Craft_Crate_of_Dark_Oak Sapling
+      - Nether_Craft_Crate_of_Dark_Oak_Sapling
       - Nether_Craft_Crate_of_Fish
       - Nether_Craft_Crate_of_Glass_Bottles
       - Nether_Craft_Crate_of_Grass
@@ -782,7 +781,7 @@ production_factories:
       - Nether_Decraft_Crate_of_Carrots
       - Nether_Decraft_Crate_of_Cocoa
       - Nether_Decraft_Crate_of_Cookies
-      - Nether_Decraft_Crate_of_Dark_Oak Sapling
+      - Nether_Decraft_Crate_of_Dark_Oak_Sapling
       - Nether_Decraft_Crate_of_Fish
       - Nether_Decraft_Crate_of_Glass_Bottles
       - Nether_Decraft_Crate_of_Grass
@@ -8755,7 +8754,7 @@ production_recipes:
     inputs:
        Birch Sapling:
          material: SAPLING
-         durability: 4
+         durability: 2
          amount: 1024
     outputs: 
        Crate of Birch Sapling:
@@ -8770,7 +8769,7 @@ production_recipes:
     inputs:
        Dark Oak Sapling:
          material: SAPLING
-         durability: 4
+         durability: 5
          amount: 1024
     outputs: 
        Crate of Dark Oak Sapling:
@@ -8799,7 +8798,7 @@ production_recipes:
     inputs:
        Jungle Sapling:
          material: SAPLING
-         durability: 4
+         durability: 3
          amount: 1024
     outputs: 
        Crate of Jungle Sapling:
@@ -9148,7 +9147,7 @@ production_recipes:
     outputs: 
        Birch Sapling:
          material: SAPLING
-         durability: 4
+         durability: 2
          amount: 1024
   Nether_Decraft_Crate_of_Dark_Oak_Sapling:
     name: Decraft Crate of Dark Oak Sapling
@@ -9163,7 +9162,7 @@ production_recipes:
     outputs: 
        Dark Oak Sapling:
          material: SAPLING
-         durability: 4
+         durability: 5
          amount: 1024
   Nether_Decraft_Crate_of_Grass_Blocks:
     name: Decraft Crate of Grass Blocks
@@ -9192,7 +9191,7 @@ production_recipes:
     outputs: 
        Jungle Sapling:
          material: SAPLING
-         durability: 4
+         durability: 3
          amount: 1024
   Nether_Decraft_Crate_of_Oak_Sapling:
     name: Decraft Crate of Oak Sapling
