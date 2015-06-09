@@ -108,9 +108,12 @@ repair_factory:
   production_time: 20
   costs:
     construction:
+      Emerald Blocks:
+        material: 'EMERALD_BLOCK'
+        amount: 8
       Coal Ore:
         material: 'COAL_ORE'
-        amount: 256
+        amount: 64
       Iron Ore:
         material: 'IRON_ORE'
         amount: 8
