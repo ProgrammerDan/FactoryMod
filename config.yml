@@ -103,17 +103,14 @@ repair_factory:
       amount: 1
       durability: 1
   fuel_time: 5
-  repair_multiple: 1
+  repair_multiple: 10
   name: 'Repair Factory'
   production_time: 20
   costs:
     construction:
-      Emerald Blocks:
-        material: 'EMERALD_BLOCK'
-        amount: 8
       Coal Ore:
         material: 'COAL_ORE'
-        amount: 64
+        amount: 256
       Iron Ore:
         material: 'IRON_ORE'
         amount: 8
@@ -126,11 +123,14 @@ repair_factory:
     repair:
       Coal Ore:
         material: 'COAL_ORE'
-        amount: 32
+        amount: 3
     recipe:
       Coal Ore:
         material: 'COAL_ORE'
         amount: 64
+	  Emerald Blocks:
+	    material: 'EMERALD_BLOCK'
+		amount: 8
 copy_defaults: false
 general:
   central_block: WORKBENCH
@@ -329,14 +329,14 @@ production_factories:
       - Bake_Bread
       - Bake_Cake
       - Bake_Pumpkin_Pie
-    repair_multiple: 26
+    repair_multiple: 10
     repair_inputs:
       Baked Potato:
         material: BAKED_POTATO
-        amount: 2
+        amount: 5
       Cookie:
         material: COOKIE
-        amount: 4
+        amount: 10
       Bread:
         material: BREAD
       Pumpkin Pie:
