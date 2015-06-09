@@ -701,14 +701,14 @@ production_factories:
       - Emerald_XP_0
       - Emerald_XP_1
       - Emerald_XP_2
-    repair_multiple: 2
+    repair_multiple: 10
     repair_inputs:
       Emeralds:
         material: EMERALD
-        amount: 32   
+        amount: 2
       Diamonds:
         material: DIAMOND
-        amount: 12   
+        amount: 2  
       Iron:
         material: IRON_INGOT
         amount: 25  
