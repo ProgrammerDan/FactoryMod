@@ -1206,7 +1206,7 @@ production_factories:
         amount: 9  
       Emerald Block:
         material: EMERALD_BLOCK
-        amount: 128  
+        amount: 12
   Glass_Smelter:
     name: Glass Smelter
     fuel:
