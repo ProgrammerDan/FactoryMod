@@ -6543,6 +6543,17 @@ production_recipes:
       Iron Door:
         material: IRON_DOOR
         amount: 18
+  Forge_Iron_Trapdoors:
+    name: Forge Iron Trapdoors
+    production_time: 16
+    inputs:
+      Iron Ingot:
+        material: IRON_INGOT
+        amount: 54
+    outputs:
+      Iron Trapdoor:
+        material: IRON_TRAPDOOR
+        amount: 36
   Forge_Flint_And_Steel:
     name: Forge Flint and Steel
     production_time: 8
@@ -8196,7 +8207,7 @@ production_recipes:
         material: DIAMOND_CHESTPLATE
         amount: 5
     enchantments:
-      Protection:
+      Unbreaking:
         type: DURABILITY
         level: 3
   Enchant_U3_Legs:
@@ -8214,7 +8225,7 @@ production_recipes:
         material: DIAMOND_LEGGINGS 
         amount: 5
     enchantments:
-      Protection:
+      Unbreaking:
         type: DURABILITY
         level: 3
   Enchant_U3_Boots:
@@ -8232,7 +8243,7 @@ production_recipes:
         material: DIAMOND_BOOTS  
         amount: 5
     enchantments:
-      Protection:
+      Unbreaking:
         type: DURABILITY
         level: 3
   Enchant_U3_Helmet:
@@ -8250,7 +8261,7 @@ production_recipes:
         material: DIAMOND_HELMET   
         amount: 5
     enchantments:
-      Protection:
+      Unbreaking:
         type: DURABILITY
         level: 3
   Enchant_Picks_E5:
@@ -8268,7 +8279,7 @@ production_recipes:
         material: DIAMOND_PICKAXE   
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DIG_SPEED
         level: 5
   Enchant_Spades_E5:
@@ -8286,7 +8297,7 @@ production_recipes:
         material: DIAMOND_SPADE   
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DIG_SPEED
         level: 5
   Enchant_Axes_E5:
@@ -8304,7 +8315,7 @@ production_recipes:
         material: DIAMOND_AXE  
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DIG_SPEED
         level: 5
   Enchant_Picks_U3:
@@ -8322,7 +8333,7 @@ production_recipes:
         material: DIAMOND_PICKAXE   
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DURABILITY
         level: 3
   Enchant_Spades_U3:
@@ -8340,7 +8351,7 @@ production_recipes:
         material: DIAMOND_SPADE   
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DURABILITY
         level: 3
   Enchant_Axes_U3:
@@ -8358,7 +8369,7 @@ production_recipes:
         material: DIAMOND_AXE  
         amount: 5
     enchantments:
-      Protection:
+      Efficiency:
         type: DURABILITY
         level: 3
   Enchant_Picks_S1:
@@ -8376,7 +8387,7 @@ production_recipes:
         material: DIAMOND_PICKAXE  
         amount: 5
     enchantments:
-      Protection:
+      Silk Touch:
         type: SILK_TOUCH
         level: 1
   Enchant_Spades_S1:
@@ -8394,7 +8405,7 @@ production_recipes:
         material: DIAMOND_SPADE   
         amount: 5
     enchantments:
-      Protection:
+      Silk Touch:
         type: SILK_TOUCH
         level: 1
   Enchant_Axes_S1:
@@ -8412,7 +8423,7 @@ production_recipes:
         material: DIAMOND_AXE  
         amount: 5
     enchantments:
-      Protection:
+      Silk Touch:
         type: SILK_TOUCH
         level: 1
   Enchant_Picks_F3:
@@ -8430,7 +8441,7 @@ production_recipes:
         material: DIAMOND_PICKAXE   
         amount: 5
     enchantments:
-      Protection:
+      Fortune:
         type: LOOT_BONUS_BLOCKS
         level: 3
   Enchant_Spades_F3:
@@ -8448,7 +8459,7 @@ production_recipes:
         material: DIAMOND_SPADE   
         amount: 5
     enchantments:
-      Protection:
+      Fortune:
         type: LOOT_BONUS_BLOCKS
         level: 3
   Enchant_Axes_F3:
@@ -8466,7 +8477,7 @@ production_recipes:
         material: DIAMOND_AXE  
         amount: 5
     enchantments:
-      Protection:
+      Fortune:
         type: LOOT_BONUS_BLOCKS
         level: 3
   Nether_Craft_Crate_of_Melons:
@@ -10515,7 +10526,7 @@ production_recipes:
       Carrot:
         material: CARROT
         amount: 640
-      Wheat:
+      Soul Sand:
         material: SOUL_SAND
         amount: 640
       Glass Bottle:
