@@ -705,7 +705,7 @@ production_factories:
       - Emerald_XP_2
     repair_multiple: 10
     repair_inputs:
-      Emeralds:
+      Emerald Blocks:
         material: EMERALD_BLOCK
         amount: 2
       Diamonds:
