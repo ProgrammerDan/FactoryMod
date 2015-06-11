@@ -704,14 +704,14 @@ production_factories:
     repair_multiple: 10
     repair_inputs:
       Emeralds:
-        material: EMERALD
+        material: EMERALD_BLOCK
         amount: 2
       Diamonds:
         material: DIAMOND
         amount: 2  
       Iron:
         material: IRON_INGOT
-        amount: 25  
+        amount: 3
   Nether_Compactor:
     name: Nether Compactor
     fuel: 
@@ -802,11 +802,11 @@ production_factories:
       - Nether_Decraft_Crate_of_Vine
       - Nether_Decraft_Crate_of_Wheat
       - Nether_Decraft_Crate_of_Yellow_Flower
-    repair_multiple: 2
+    repair_multiple: 10
     repair_inputs:
       Diamonds:
         material: DIAMOND
-        amount: 12
+        amount: 6
       Emerald Blocks:
         material: EMERALD_BLOCK
         amount: 12
