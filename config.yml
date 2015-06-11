@@ -237,6 +237,8 @@ crafting:
     CRACKED_STONE_BRICK:
       material: SMOOTH_BRICK
       durability: 2
+    MOSSY_COBBLE:
+      material: MOSSY_COBBLESTONE
   enable:
     XP to Emerald:
       inputs:
@@ -753,14 +755,14 @@ production_factories:
       - Nether_Craft_Crate_of_Vine
       - Nether_Craft_Crate_of_Wheat
       - Nether_Craft_Crate_of_Yellow_Flower
-    repair_multiple: 2
+    repair_multiple: 3
     repair_inputs:
       Iron Block:
         material: IRON_BLOCK
-        amount: 6   
+        amount: 2   
       Emerald Blocks:
         material: EMERALD_BLOCK
-        amount: 6
+        amount: 2
   Nether_Decompactor:
     name: Nether Decompactor
     fuel: 
@@ -802,14 +804,14 @@ production_factories:
       - Nether_Decraft_Crate_of_Vine
       - Nether_Decraft_Crate_of_Wheat
       - Nether_Decraft_Crate_of_Yellow_Flower
-    repair_multiple: 10
+    repair_multiple: 6
     repair_inputs:
       Diamonds:
         material: DIAMOND
-        amount: 6
+        amount: 3
       Emerald Blocks:
         material: EMERALD_BLOCK
-        amount: 12
+        amount: 6
   Diamond_Cauldron:
     name: Diamond Cauldron
     fuel:
@@ -827,14 +829,14 @@ production_factories:
       - Diamond_XP_Bottle_0
       - Diamond_XP_Bottle_1
       - Diamond_XP_Bottle_2
-    repair_multiple: 5
+    repair_multiple: 10
     repair_inputs:
       Diamond:
         material: DIAMOND
-        amount: 12
+        amount: 1
       Iron Ingot:
         material: IRON_INGOT
-        amount: 25
+        amount: 3
   Diamond_Chestplate_Smithy:
     name: Diamond Chestplate Smithy
     fuel:
@@ -962,11 +964,11 @@ production_factories:
       - Create_Wooden_Spade
       - Create_Wooden_Axe
       - Create_Fishing_Rod
-    repair_multiple: 2
+    repair_multiple: 9
     repair_inputs:
       Sticks:
         material: STICK
-        amount: 9  
+        amount: 1  
   Random_Leather_Armor_Factory:
     name: Random Leather Armor Factory
     fuel: 
@@ -982,11 +984,11 @@ production_factories:
       - Create_Leather_Boots
       - Create_Leather_Chestplate
       - Create_Leather_Helmet
-    repair_multiple: 2
+    repair_multiple: 6
     repair_inputs:
       Leather:
         material: LEATHER
-        amount: 6  
+        amount: 1  
   Random_Wooden_Weapon_Factory:
     name: Random Wooden Weapon Factory
     fuel: 
@@ -999,7 +1001,7 @@ production_factories:
         amount: 32  
     recipes:
       - Create_Wooden_Sword
-    repair_multiple: 2
+    repair_multiple: 1
     repair_inputs:
       Sticks:
         material: STICK
@@ -1018,11 +1020,11 @@ production_factories:
       - Create_Iron_Axe
       - Create_Iron_Pickaxe
       - Create_Iron_Spade
-    repair_multiple: 10
+    repair_multiple: 9
     repair_inputs:
-      Iron:
-        material: Iron
-        amount: 9  
+      Iron Blocks:
+        material: IRON_BLOCK
+        amount: 1  
   Random_Iron_Armor_Factory:
     name: Random Iron Armor Factory
     fuel: 
@@ -1038,11 +1040,11 @@ production_factories:
       - Create_Iron_Boots
       - Create_Iron_Chestplate
       - Create_Iron_Helmet
-    repair_multiple: 2
+    repair_multiple: 6
     repair_inputs:
       Iron Blocks:
         material: IRON_BLOCK
-        amount: 6  
+        amount: 1  
   Random_Iron_Weapon_Factory:
     name: Random Iron Weapon Factory
     fuel: 
@@ -5344,8 +5346,8 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 32
   Iron_XP_Bottle_3:
     name: Brew XP Bottles  - 4
@@ -5367,8 +5369,8 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 32
   Iron_XP_Bottle_2:
     name: Brew XP Bottles  - 3
@@ -5379,7 +5381,6 @@ production_recipes:
       Carrot:
         material: CARROT_ITEM
         amount: 512
-
       Baked Potato:
         material: BAKED_POTATO
         amount: 256
@@ -5390,8 +5391,8 @@ production_recipes:
         material: MELON_BLOCK
         amount: 64
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 32
   Diamond_Leggings:
     name: Forge Diamond Leggings.
@@ -10499,8 +10500,8 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 36
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 4
   Wood_XP_1:
     name: Wood XP Factory 2
@@ -10516,8 +10517,8 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 36
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 4
   Wood_XP_2:
     name: Wood XP Factory 3
@@ -10533,8 +10534,8 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 36
     outputs:
-      Emerald:
-        material: EMERALD
+      XP Bottls:
+        material: EXP_BOTTLE
         amount: 4
   Wood_XP_3:
     name: Wood XP Factory 4
