@@ -128,9 +128,9 @@ repair_factory:
       Coal Ore:
         material: 'COAL_ORE'
         amount: 64
-	  Emerald Blocks:
-	    material: 'EMERALD_BLOCK'
-		amount: 8
+      Emerald Blocks:
+        material: 'EMERALD_BLOCK'
+        amount: 8
 copy_defaults: false
 general:
   central_block: WORKBENCH
@@ -958,7 +958,7 @@ production_factories:
         material: STICK
         amount: 96   
     recipes:
-      - Create_Wooden_Axe
+      - Create_Wooden_Pickaxe
       - Create_Wooden_Spade
       - Create_Wooden_Axe
       - Create_Fishing_Rod
@@ -8645,7 +8645,7 @@ production_recipes:
        Grass:
          material: LONG_GRASS
          amount: 1024
-		 durability: 1
+         durability: 1
     outputs:
        Crate of Grass:
          material: WOOD
@@ -9039,7 +9039,7 @@ production_recipes:
        Grass:
          material: LONG_GRASS
          amount: 1024
-		 durability: 1
+         durability: 1
   Nether_Decraft_Crate_of_Red_Rose:
     name: Decraft Crate of Red Rose
     production_time: 4
@@ -9482,14 +9482,14 @@ production_recipes:
     production_time: 40
     inputs:
       Wooden Axe:
-        material: WOOD_AXE
+        material: WOOD_PICKAXE
         amount: 1
       Emerald Blocks:
         material: EMERALD_BLOCK
         amount: 2
     outputs:
       Enchanted Wooden Axe:
-        material: WOOD_AXE
+        material: WOOD_PICKAXE
         amount: 1
     enchantments:
       Efficiency 4:
