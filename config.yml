@@ -5353,7 +5353,7 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 32
   Iron_XP_Bottle_3:
@@ -5376,7 +5376,7 @@ production_recipes:
         material: PUMPKIN
         amount: 128
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 32
   Iron_XP_Bottle_2:
@@ -5398,7 +5398,7 @@ production_recipes:
         material: MELON_BLOCK
         amount: 64
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 32
   Diamond_Leggings:
@@ -10507,7 +10507,7 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 4
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 4
   Wood_XP_1:
@@ -10524,7 +10524,7 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 4
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 4
   Wood_XP_2:
@@ -10541,7 +10541,7 @@ production_recipes:
         material: GLASS_BOTTLE
         amount: 4
     outputs:
-      XP Bottls:
+      XP Bottles:
         material: EXP_BOTTLE
         amount: 4
   Wood_XP_3:
