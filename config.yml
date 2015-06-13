@@ -10588,12 +10588,12 @@ production_recipes:
          amount: 64
          display_name: Crate of Bread
          lore: Crate of Bread
-       Crate of Grass Blocks:
+       Crate of Grass:
          material: WOOD
          durability: 0
          amount: 64
-         display_name: Crate of Grass Blocks
-         lore: Crate of Grass Blocks
+         display_name: Crate of Grass
+         lore: Crate of Grass
        Crate of Brown Mushrooms:
          material: WOOD
          durability: 0
@@ -10667,12 +10667,12 @@ production_recipes:
          amount: 128
          display_name: Crate of Pumpkins
          lore: Crate of Pumpkins
-       Crate of Grass Blocks:
+       Crate of Grass:
          material: WOOD
          durability: 0
          amount: 64
-         display_name: Crate of Grass Blocks
-         lore: Crate of Grass Blocks
+         display_name: Crate of Grass
+         lore: Crate of Grass
        Crate of Cocoa:
          material: WOOD
          durability: 0
