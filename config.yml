@@ -343,6 +343,7 @@ production_factories:
         amount: 10
       Bread:
         material: BREAD
+        amount: 2
       Pumpkin Pie:
         material: PUMPKIN_PIE
   Black_Wool_Processing:
