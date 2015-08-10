@@ -2358,6 +2358,7 @@ production_factories:
       - Craft_Bookshelfs
       - Bastion_Framing
       - Craft_Crate
+      - Craft_Bulk_Crates
     repair_multiple: 10
     repair_inputs:
       Paper:
@@ -8207,6 +8208,22 @@ production_recipes:
       Crate:
         material: CHEST
         amount: 54
+        display_name: Crate
+        lore: A crate for compacting items
+  Craft_Bulk_Crates:
+    name: Craft Compactor Crate
+    production_time: 40
+    inputs:
+      Chest:
+        material: LOG
+        amount: 2496
+      'Iron Ingot':
+        material: IRON_INGOT
+        amount: 128
+    outputs:
+      Crate:
+        material: CHEST
+        amount: 1458
         display_name: Crate
         lore: A crate for compacting items
   Enchant_Sharpness:
